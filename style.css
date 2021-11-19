@@ -154,7 +154,9 @@ span.now-sale-category.highlighted-text{
     color: #f4b13d;
 
 }
-
+.image-big-1{
+    width: 570px;
+}
 .banner img:first-child{
     flex-grow: 1;
     align-self: stretch;
@@ -167,3 +169,9 @@ span.now-sale-category.highlighted-text{
     color: rgb(109, 29, 114);
     cursor: pointer;
 }
+.banner-hidden{
+    visibility: hidden;
+}
+
+
+/* footer section styling */
