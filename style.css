@@ -92,7 +92,12 @@ nav{
     text-align: center;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
+    border: 2px solid  rgb(109, 29, 114);
     padding: 60px;
     font-size: xx-small;
+    color: rgb(109, 29, 114);
+    border-style: dashed;
+}
+#flash-dela-p:hover{
+    cursor: pointer;
 }
