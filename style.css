@@ -175,3 +175,28 @@ span.now-sale-category.highlighted-text{
 
 
 /* footer section styling */
+footer>p {
+    background-color: rgb(38, 38, 38);
+    padding: 15px 23px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+.footer-span{
+    padding-left: 20px;
+    color:white;
+}
+.footer-logo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer-2nd{
+    color: white;
+    height: 110px;
+    border: 1px solid black;
+    background-color: rgb(49, 48, 48);
+    margin-top: -20px;
+    font-size: x-small;
+    align-items: center;
+    margin-bottom: -60px;
+}
