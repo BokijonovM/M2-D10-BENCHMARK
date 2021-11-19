@@ -69,3 +69,30 @@ nav{
     margin-left: 50px;
     margin-right: 50px;
 }
+.cards-4{
+    padding: 0;
+    margin: 0;
+}
+.bi-windows{
+    margin-left: 7px;
+}
+.span-3-p{
+    font-weight: bolder;
+    color: rgb(109, 29, 114);
+}
+.after-cards-p{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 0;
+}
+.circle-icon{
+    padding-left: 40px;
+}
+#flash-dela-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    padding: 60px;
+    font-size: xx-small;
+}
