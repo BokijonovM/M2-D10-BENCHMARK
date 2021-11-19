@@ -1,0 +1,71 @@
+nav{
+    margin-top: 10px;
+    color: white;
+    opacity: 0.8;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    font-weight:bolder;
+    
+}
+#nav-image{
+    color: white;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-expand-lg .navbar-collapse .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    color: #fff;
+    margin-right: 20px;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+  
+.navbar-expand-lg .navbar-collapse .nav-link:hover {
+    cursor: pointer;
+    color: #999494;
+}
+.search-icon-nav {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.search-icon-nav:hover {
+    opacity: 1;
+}
+.bi-cart{
+    margin-right: 30px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+.bi-cart:hover{
+    cursor: pointer;
+    opacity:1;
+}
+.main-image{
+    position: absolute;
+}
+.main-image1{
+    position: absolute;
+}
+.highlights{
+    padding-top: 300px;
+    margin-top: 50px;
+}
+.carusel{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
