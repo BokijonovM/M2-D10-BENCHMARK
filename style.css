@@ -1,9 +1,19 @@
+body{
+    background-color: rgb(217, 217, 217);
+    background:rgb(217, 217, 217)
+}
+
 .logo{
     width: 100%;
     background-color: white;
     border-radius: 4px;
 }
-
+.card{
+    background-color:rgb(237, 237, 237) !important
+}
+.carusel-2nd-line{
+    left: 0;
+}
 .menu {
     color: white;
     box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 30%);
@@ -11,7 +21,7 @@
     width: 100%;
     top: 0;
     opacity: 0.7;
-    margin-top: 15px;;
+    margin-top: 10px;
     position: fixed;
     z-index: 999999;
     font-weight: bolder;
@@ -113,9 +123,7 @@ a.nav-link#navbarDropdownMenuLink:hover {
     border-bottom: 1px solid black;
     padding-bottom: 0;
 }
-.circle-icon{
-    padding-left: 40px;
-}
+
 #flash-dela-p{
     text-align: center;
     align-items: center;
@@ -199,4 +207,39 @@ footer>p {
     font-size: x-small;
     align-items: center;
     margin-bottom: -60px;
+}
+.corusel-images{
+    position: relative;
+}
+.corusel-images::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3026960784313726) 100%);
+    opacity: 0.8;
+}
+.carousel-indicators5{
+    display: inline-block;
+    width: 68px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 30%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+    opacity: 0.8;
+
+}
+.carousel-indicators .active {
+   opacity: 1;
+   border: 1px solid black;
+}
+.carousel-caption1{
+    left: 0;
 }
